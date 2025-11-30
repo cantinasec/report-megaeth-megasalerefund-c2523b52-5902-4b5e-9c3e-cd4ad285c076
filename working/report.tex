@@ -9,7 +9,11 @@ simplified}{batchRefund() logic can be simplified}}\label{batchrefund-logic-can-
 reviewer)}
 
 \textbf{Description:} The \texttt{batchRefund()} function emits an event
-\texttt{BatchRefundProcessed(uint256\ usersCount,\ uint256\ totalAmount);}
+
+\begin{minted}[]{solidity}
+BatchRefundProcessed(uint256 usersCount, uint256 totalAmount);
+\end{minted}
+
 and makes use of the following logic to track \texttt{usersCount} and
 \texttt{totalAmount} refunded in the batch:
 
