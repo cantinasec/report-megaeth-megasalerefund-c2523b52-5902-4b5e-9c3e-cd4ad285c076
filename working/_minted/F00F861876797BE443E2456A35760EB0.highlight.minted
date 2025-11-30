@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{uint256}\PYG{+w}{ }\PYG{n+nv}{batchTotalAmount}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mDecimal}{0}\PYG{p}{;}
+\PYG{k+kt}{uint256}\PYG{+w}{ }\PYG{n+nv}{successfulRefunds}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mDecimal}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// for tracking user count}
+
+\PYG{k+kt}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{uint256}\PYG{+w}{ }\PYG{n+nv}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mDecimal}{0}\PYG{p}{;}\PYG{+w}{ }i\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }usersCount\PYG{p}{;}\PYG{+w}{ }i\PYG{o}{+}\PYG{o}{+}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYGZus{}processSingleRefund\PYG{p}{(}users\PYG{p}{[}i\PYG{p}{]}\PYG{p}{,}\PYG{+w}{ }amounts\PYG{p}{[}i\PYG{p}{]}\PYG{p}{,}\PYG{+w}{ }merkleProofs\PYG{p}{[}i\PYG{p}{]}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }batchTotalAmount\PYG{+w}{ }\PYG{o}{+}\PYG{o}{=}\PYG{+w}{ }amounts\PYG{p}{[}i\PYG{p}{]}\PYG{p}{;}
+\PYG{+w}{    }successfulRefunds\PYG{o}{+}\PYG{o}{+}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}
