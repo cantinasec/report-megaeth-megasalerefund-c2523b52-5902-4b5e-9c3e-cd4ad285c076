@@ -14,7 +14,12 @@ Fixed on: [None]
 **Context:** _(No context files were provided by the reviewer)_
 
 
-**Description:** The `batchRefund()` function emits an event `BatchRefundProcessed(uint256 usersCount, uint256 totalAmount);` and makes use of the following logic to track `usersCount` and `totalAmount` refunded in the batch:
+**Description:** The `batchRefund()` function emits an event
+
+```solidity
+BatchRefundProcessed(uint256 usersCount, uint256 totalAmount);
+```
+and makes use of the following logic to track `usersCount` and `totalAmount` refunded in the batch:
 
 ```solidity
 uint256 batchTotalAmount = 0;
