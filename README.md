@@ -1,5 +1,12 @@
-# Cantina Security Review Report
+# Megaeth: MegaSaleRefund Report
 
-This repository is a template for the basic elements of a Cantina security review report, which are written semi-automatically by the Cantina team, and manually curated before generating the PDF file.
+**Team:** MegaETH
+**Website:** https://www.megaeth.com/
+**Project:** MegaETH - MegaSaleRefund
+**GitHub:** https://github.com/megaeth-labs/mega-sale-refund
+**Review Length:** 1
+**Review Timeline:** Nov 27th to Nov 28th
+**Cantina Type:** Solo
+**Commit Hash:** 409d3de5
 
-DO NOT USE THIS REPOSITORY ON ITS OWN, IT IS INTENDED TO BE USED BY THE REPORT-GENERATING LOGIC.
+**Last Updated:** 2025-11-30

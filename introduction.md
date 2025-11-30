@@ -1,0 +1,1 @@
+MegaETH is a high-performance blockchain network (currently in testnet) that is EVM-compatible and designed for ultra-fast block times and real-time applications.
