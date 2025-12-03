@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.12.24)  30 NOV 2025 11:41
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.12.24)  3 DEC 2025 23:10
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1750,10 +1750,10 @@ So I'll assume that you meant to type \cr instead.
 \pydata@fh@_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted=\write7
 
 \openout7 = _FAD58DE7366495DB4650CFEFAC2FCD61.data.minted
-runsystem(latexminted config  --timestamp 20251130114128 FAD58DE7366495DB4650CFE
+runsystem(latexminted config  --timestamp 20251203231011 FAD58DE7366495DB4650CFE
 FAC2FCD61)...executed.
 (./_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20251130114128 FAD58DE7366495DB46
+runsystem(latexminted cleanconfig  --timestamp 20251203231011 FAD58DE7366495DB46
 50CFEFAC2FCD61)...executed.
 
 (./_minted/tango.style.minted)
@@ -1781,22 +1781,22 @@ LaTeX Font Info:    Font shape `TU/DejaVuSansMono(0)/m/it' will be
 LaTeX Font Info:    Font shape `TU/DejaVuSansMono(0)/m/n' will be
 (Font)              scaled to size 4.8928pt on input line 3.
 )
-Underfull \hbox (badness 1735) in paragraph at lines 56--59
+Underfull \hbox (badness 1735) in paragraph at lines 61--64
 []\TU/OpenSans(0)/m/n/10 But this is an in-cor-rect de-scrip-tion. The men-tione
 d check is ac-tu-ally done in [] and
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 71--75
+Underfull \hbox (badness 2762) in paragraph at lines 81--85
 []\TU/OpenSans(0)/b/n/10 De-scrip-tion: \TU/OpenSans(0)/m/n/10 The [] con-tract pro-vided a way for users to bid with USDT, and the
  []
 
-)
+
 
 [4
 
 
-]
+])
 
 [5] (./post_report.tex) (./main.aux)
  ***********
@@ -1817,8 +1817,8 @@ Here is how much of LuaTeX's memory you used:
  638 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 4 kern, 1 penalty, 3 glyph, 21
  attribute, 62 glue_spec, 12 attribute_list, 4 write nodes
-   avail lists: 1:1,2:5733,3:1920,4:737,5:471,6:80,7:6737,8:3,9:1326,10:80,11:51
-9
+   avail lists: 1:1,2:5594,3:1737,4:719,5:474,6:80,7:6025,8:3,9:1299,10:80,11:47
+3
  56338 multiletter control sequences out of 65536+600000
  94 fonts using 16501159 bytes
  95i,12n,122p,1000b,1067s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1831,10 +1831,10 @@ type/ascender/opensans/OpenSans-Bold.ttf></usr/local/texlive/2024/texmf-dist/fon
 ts/truetype/ascender/opensans/OpenSans-Regular.ttf></usr/local/texlive/2024/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on main.pdf (6 pages, 98239 bytes).
+Output written on main.pdf (6 pages, 99074 bytes).
 
-PDF statistics: 171 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
+PDF statistics: 173 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 131072)
  120 words of extra memory for PDF output out of 10000 (max. 100000000)
 

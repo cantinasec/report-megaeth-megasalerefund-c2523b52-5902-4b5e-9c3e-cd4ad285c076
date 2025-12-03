@@ -36,6 +36,11 @@ from the input \texttt{users} array.
 \textbf{Recommendation:} Consider using the already known users count
 for event data, and removing the \texttt{successfulRefunds} variable.
 
+\textbf{MegaETH:} Fixed in commit
+\href{https://github.com/megaeth-labs/mega-sale-refund/commit/ab33750417a9db07a3114f3d053ab6b1d03846d0}{ab337504}.
+
+\textbf{Chinmay Farkya:} Fix verified.
+
 \subsection{Informational}\label{informational}
 
 \subsubsection{Incorrect natspec}\label{incorrect-natspec}
@@ -58,6 +63,11 @@ done in \texttt{refund()} and \texttt{batchRefund()} functions, and
 \texttt{\_processRefund()} function does not even exist.
 
 \textbf{Recommendation:} Consider changing the natspec comments.
+
+\textbf{MegaETH:} Fixed in commit
+\href{https://github.com/megaeth-labs/mega-sale-refund/commit/6bdfba6c9d20f95c9bb508015f6b453428315fa8}{6bdfba6c}.
+
+\textbf{Chinmay Farkya:} Fix verified.
 
 \subsubsection{\texorpdfstring{Make sure that \texttt{TokenSale} entity
 addresses can handle refunded
@@ -87,3 +97,7 @@ at their own contract.
 \textbf{Recommendation:} Consider checking if user entities would have a
 problem handling received USDT refunds, if they used smart contracts for
 the public sale.
+
+\textbf{MegaETH:} Acknowledged.
+
+\textbf{Chinmay Farkya:} Acknowledged.
