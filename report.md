@@ -38,6 +38,9 @@ But this local variable `successfulRefunds` is not required. The `batchRefund` o
 
 **Recommendation:** Consider using the already known users count for event data, and removing the `successfulRefunds` variable.
 
+**MegaETH:** Fixed in commit [ab337504](https://github.com/megaeth-labs/mega-sale-refund/commit/ab33750417a9db07a3114f3d053ab6b1d03846d0).
+
+**Chinmay Farkya:** Fix verified.
 
 <!--
 POTENTIAL RESOLUTION STATEMENT:
@@ -77,6 +80,9 @@ But this is an incorrect description. The mentioned check is actually done in `r
 
 **Recommendation:** Consider changing the natspec comments.
 
+**MegaETH:** Fixed in commit [6bdfba6c](https://github.com/megaeth-labs/mega-sale-refund/commit/6bdfba6c9d20f95c9bb508015f6b453428315fa8).
+
+**Chinmay Farkya:** Fix verified.
 
 <!--
 POTENTIAL RESOLUTION STATEMENT:
@@ -113,6 +119,9 @@ This works fine if all entities that interacted with `TokenSale` contract were E
 
 **Recommendation:** Consider checking if user entities would have a problem handling received USDT refunds, if they used smart contracts for the public sale.
 
+**MegaETH:** Acknowledged.
+
+**Chinmay Farkya:** Acknowledged.
 
 <!--
 POTENTIAL RESOLUTION STATEMENT:
